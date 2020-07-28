@@ -1,9 +1,9 @@
 version: "3"
 
 services:
-  adf_bot:
-    image: adf_bot
-    container_name: adfBot
+  supervisorTest:
+    image: supervisorTest 
+    container_name: supervisortest
     restart: always
     # build: .
     working_dir: /app/
